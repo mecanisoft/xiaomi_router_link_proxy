@@ -1,0 +1,5 @@
+configuration:
+  server: 
+    name: Host
+    description: XIAOMI ROUTER  JS UI server full URL
+

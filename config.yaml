@@ -1,0 +1,16 @@
+name: "xiaomi link Proxy"
+version: "1.0.0"
+slug: "xiaomi-link-Proxy"
+description: "Getting access to external xiaomi router JS UI from Home Assistant UI"
+panel_icon: "mdi:router"
+arch:
+  - amd64
+  - armhf
+  - armv7
+  - i386
+ingress: true
+init: false
+options:
+  server: "http://192.168.0.1"
+schema:
+  server: str
